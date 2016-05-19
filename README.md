@@ -1,3 +1,5 @@
+# FORK FROM NODE-LAMBDA
+
 # node-lambda
 
 ![node-lambda](../master/node-lambda.png?raw=true)
@@ -14,7 +16,7 @@ node-lambda run
 ## Installation
 
 ```
-npm install -g node-lambda
+npm install -g nlp-cli
 ```
 
 ## Example App
@@ -26,10 +28,10 @@ The [node-lambda-template](https://github.com/RebelMail/node-lambda-template) ex
 There are 4 available commands.
 
 ```
-node-lambda setup
-node-lambda run
-node-lambda package
-node-lambda deploy
+node-lambda setup -n [FUNCTION_NAME]
+node-lambda run -n [FUNCTION_NAME]
+node-lambda package -n [FUNCTION_NAME]
+node-lambda deploy -n [FUNCTION_NAME]
 ```
 
 ### Commands
